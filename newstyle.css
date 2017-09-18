@@ -1,10 +1,10 @@
-p(
+p{
     background-color: yellow;
-)
+}
 
-.nice(
+.nice{
     font-weight: bold;
-)
-.nicer(
+}
+.nicer{
     background-color: grey;
-)
+}
