@@ -1,0 +1,17 @@
+.my-photo {
+    background-image: url(baby2.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0% 30%;
+}
+
+.my-thick-hr{
+    width: 95%;
+    border: 10px solid turquoise;
+    margin-left: 0;
+}
+
+.my-font{
+    color: white
+}
