@@ -1,9 +1,9 @@
 .my-photo {
-    background-image: url(baby2.jpeg);
+    background-image: url(Slide1.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 0% 30%;
+    background-position: 0% 40%;
 }
 
 .my-thick-hr{
@@ -14,4 +14,17 @@
 
 .my-font{
     color: white
+    
+}
+
+.my-highlight{
+    color: darkturquoise;
+    font-size: 2rem;
+
+}
+
+.my-highlight2{
+    color: white;
+    font-size: 2rem;
+
 }

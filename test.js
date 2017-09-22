@@ -85,3 +85,61 @@ function processInput() {
     // UPDATE THE HTML HEADER
     document.getElementById("result_header").innerHTML = result
 }
+
+for (var index = 0; index < 10; index++) {
+    console.log (index)
+    
+}
+
+var index = 0;
+while (index < 10) {
+    console.log (index)
+    index++
+}
+
+var a = 90;
+while (a > 69) {
+   console.log(a)
+   a--
+}
+
+for (var a = 90; a > 69;  a--) {
+   console.log(a)
+}
+
+for (var item in [1,2,3]) {
+   console.log(item)
+}
+
+// Objects
+var student = {
+    name: "Ken",
+    age: 20,
+    marks: [80, 89, 67, 90, 100],
+    subjects: ["Math", "CS", "EC", "Math2", "Math3"],
+    avg: 0,
+    young: false,
+    welcome_function: function () {
+        console.log("WELCOME BLA BLA BLA..")
+    },
+    bmi: {
+        height: 200,
+        weight: 70
+    }
+}
+
+// Access the value of name "property" from student object ??
+console.log(student.name)
+
+
+var mymarks_list  = student.marks
+var no_of_items = mymarks_list.length
+var index = 0
+var total = 0
+while (index < no_of_items) {
+    total = total + mymarks_list[index]
+    index++
+}
+
+var average = total / no_of_items
+student.avg = average
